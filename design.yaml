@@ -3,3 +3,9 @@
 # Se aplica vía `rendercv render ... -d design.yaml`
 design:
   theme: classic
+  colors:
+    name: "27ae60"
+    headline: "27ae60"
+    connections: "27ae60"
+    section_titles: "27ae60"
+    links: "27ae60"
