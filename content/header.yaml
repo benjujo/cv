@@ -1,8 +1,9 @@
 name: Benjamín Hurtado
 location: Santiago, Chile
 email: me@benjamin.hurta.do
-phone: "+56921210199"
 website: https://benjamin.hurta.do
 social_networks:
+  - network: WhatsApp
+    username: "+56921210199"
   - network: GitHub
     username: benjujo
