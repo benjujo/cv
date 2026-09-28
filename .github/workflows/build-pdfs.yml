@@ -1,0 +1,64 @@
+name: Build PDFs
+
+# Solo en push a main: si el workflow disparara con cualquier push, el propio
+# push a la rama `pdfs` (más abajo) volvería a dispararlo -> loop infinito.
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Renderizar todos los perfiles (outputs/*.yaml)
+        run: |
+          set -e
+          for profile in outputs/*.yaml; do
+            echo "== $(basename "$profile") =="
+            nix develop --command ./build.py "$(basename "$profile")"
+          done
+
+      - name: Publicar PDFs en la rama pdfs
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
+        run: |
+          set -e
+
+          # 1. Recolectar los PDFs generados, renombrados por perfil
+          #    (todos comparten el mismo nombre base: <Name>_CV.pdf).
+          mkdir -p /tmp/pdfs
+          for dir in rendercv_output/*/; do
+            profile_name=$(basename "$dir")
+            cp "$dir"*.pdf "/tmp/pdfs/${profile_name}.pdf"
+          done
+
+          # 2. Cambiar a la rama pdfs (crearla huérfana si no existe aún).
+          git fetch origin pdfs || true
+          if git show-ref --verify --quiet refs/remotes/origin/pdfs; then
+            git checkout pdfs
+          else
+            git checkout --orphan pdfs
+          fi
+          git rm -rf . >/dev/null 2>&1 || true
+
+          # 3. Reponer los PDFs recién generados.
+          cp /tmp/pdfs/*.pdf .
+
+          # 4. Commitear solo si hay cambios reales.
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Sin cambios en los PDFs, no se hace commit."
+          else
+            git commit -m "Actualiza PDFs (${GITHUB_SHA})"
+            git push origin pdfs
+          fi
