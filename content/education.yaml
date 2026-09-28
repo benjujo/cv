@@ -2,7 +2,7 @@
   institution: "Pontificia Universidad Católica de Chile"
   area:
     - !es "Pedagogía en Educación Media, Mención Matemática"
-    - !en "Pedagogy in Secondary Education, Mathematics Track"
+    - !en "Secondary Education Pedagogy"
   degree: "Lic"
   start_date: "2026"
   end_date: "present"
@@ -11,7 +11,7 @@
   institution: "Universidad de Chile"
   area:
     - !es "Ciencias, Mención Computación"
-    - !en "Science, Computer Science Track"
+    - !en "Computer Science"
   degree: "MSc"
   start_date: "2020"
   end_date: "2026"
@@ -20,7 +20,7 @@
   institution: "Universidad de Chile"
   area:
     - !es "Ingeniería Civil en Computación"
-    - !en "Computer Engineering"
+    - !en "Computer Science Engineering"
   degree: "BSc"
   start_date: "2015"
   end_date: "2020"

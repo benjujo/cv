@@ -12,9 +12,9 @@
       - "Diseño de la arquitectura para despliegue en la nube AWS usando EC2, S3, RDS, ECR, SES y CloudFront."
       - "Despliegue automático del frontend en React usando GitHub Actions, AWS S3 y CloudFront."
     - !en
-      - "Backend development of a web application using Django and Django REST Framework together with Celery for scheduled tasks. Dockerized for deployment."
-      - "Designed the cloud deployment architecture on AWS using EC2, S3, RDS, ECR, SES, and CloudFront."
-      - "Automated frontend (React) deployment using GitHub Actions, AWS S3, and CloudFront."
+      - "Backend development using Django and django-rest-framework with Celery for task scheduling, dockerized for deployment."
+      - "Architecture design for deployment on AWS cloud using EC2, S3, RDS, ECR, SES, and CloudFront."
+      - "Automatic deployment for React frontend using GitHub Actions, AWS S3, and CloudFront."
 - _key: bloqzilla
   company: "Bloqzilla SpA"
   position:
@@ -30,10 +30,10 @@
       - "Desarrollo de una visualización web de reportes en JavaScript."
       - "Arreglos de bugs."
     - !en
-      - "Developed a LaTeX report generator module in Python."
-      - "Developed a Microsoft Access to JSON database converter module in Java."
-      - "Developed a web-based report visualization tool in JavaScript."
-      - "Bug fixing."
+      - "Built a LaTeX report generator module in Python."
+      - "Built a Microsoft Access Database format to JSON converter module in Java."
+      - "Built web report visualization in JavaScript."
+      - "Performed bug fixes and system maintenance."
 - _key: tecnosmart_practicante_2019
   company: "TecnoSmart SpA"
   position:
@@ -46,7 +46,7 @@
     - !es
       - "Desarrollo de un scrapper distribuido de datos del Poder Judicial para posterior análisis."
     - !en
-      - "Developed a distributed scraper for Chilean Judiciary (Poder Judicial) data for subsequent analysis."
+      - "Built a distributed scraper of judiciary data in Chile for further analysis."
 - _key: tecnosmart_dev_2018
   company: "TecnoSmart SpA"
   position:
@@ -59,7 +59,7 @@
     - !es
       - "Desarrollo de apoyo para un proyecto de Android."
     - !en
-      - "Supporting development for an Android project."
+      - "Provided development support for an Android project."
 - _key: tecnosmart_practicante_2018
   company: "TecnoSmart SpA"
   position:
@@ -72,4 +72,4 @@
     - !es
       - "Desarrollo en Android."
     - !en
-      - "Android development."
+      - "Developed Android applications."

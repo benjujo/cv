@@ -13,14 +13,14 @@
       - "Apoyo a las y los estudiantes con sus proyectos."
       - "El curso cubre bases de datos, redes y tópicos introductorios de las TI para Ingenieros Industriales con un enfoque práctico."
     - !en
-      - "Taught practical sessions on basic development with the Django framework."
-      - "Supported students with their projects."
-      - "The course covers databases, networking, and introductory IT topics for Industrial Engineers with a hands-on approach."
+      - "Conducted practical classes on basic development with the Django framework."
+      - "Supported students with their course projects."
+      - "Covered databases, networks, and introductory IT topics for Industrial Engineers with a practical approach."
 - _key: uchile_cc5301
   company: "Universidad de Chile"
   position:
     - !es "Ayudante — CC5301 Introducción a la Criptografía Moderna"
-    - !en "Teaching Assistant — CC5301 Introduction to Modern Cryptography"
+    - !en "Teaching Aide — CC5301 Introduction to Modern Cryptography"
   date:
     - !es "Otoño 2021"
     - !en "Fall 2021"
@@ -29,12 +29,12 @@
     - !es
       - "El curso cubre desde la criptografía clásica hasta criptografía simétrica y asimétrica moderna y aplicaciones prácticas de la criptografía."
     - !en
-      - "The course covers classical cryptography through modern symmetric and asymmetric cryptography and its practical applications."
+      - "Covered topics from classic cryptography to modern symmetric and asymmetric cryptography and practical applications."
 - _key: uchile_cc5325
   company: "Universidad de Chile"
   position:
     - !es "Ayudante — CC5325 Taller de Hacking Competitivo"
-    - !en "Teaching Assistant — CC5325 Competitive Hacking Workshop"
+    - !en "Teaching Aide — CC5325 Competitive Hacking Workshop"
   date:
     - !es "Otoño 2021"
     - !en "Fall 2021"
@@ -43,12 +43,12 @@
     - !es
       - "El curso cubre tópicos de ciberseguridad con un enfoque de metodología CTF (Capture The Flag)."
     - !en
-      - "The course covers cybersecurity topics using a CTF (Capture The Flag) methodology."
+      - "Covered cybersecurity topics using a Capture The Flag (CTF) methodology approach."
 - _key: uchile_cc3301
   company: "Universidad de Chile"
   position:
     - !es "Ayudante — CC3301 Programación de Software de Sistemas"
-    - !en "Teaching Assistant — CC3301 Systems Software Programming"
+    - !en "Teaching Aide — CC3301 Systems Programming"
   date:
     - !es "Otoño 2018 – Primavera 2019"
     - !en "Fall 2018 – Spring 2019"
@@ -57,12 +57,12 @@
     - !es
       - "El curso cubre C introductorio, bits, punteros, threads y Unix (Sockets, señales, procesos)."
     - !en
-      - "The course covers introductory C, bits, pointers, threads, and Unix (sockets, signals, processes)."
+      - "Covered introductory C, bits, pointers, threads, and Unix concepts including sockets, signals, and processes."
 - _key: uchile_in3501_ayudante
   company: "Universidad de Chile"
   position:
     - !es "Ayudante — IN3501 Tecnologías de Información y Comunicaciones para la Gestión"
-    - !en "Teaching Assistant — IN3501 Information and Communication Technologies for Management"
+    - !en "Teaching Aide — IN3501 Information and Communication Technologies for Management"
   date:
     - !es "Otoño 2019"
     - !en "Fall 2019"
@@ -71,7 +71,7 @@
   company: "Universidad de Chile"
   position:
     - !es "Ayudante — CC3201 Bases de Datos"
-    - !en "Teaching Assistant — CC3201 Databases"
+    - !en "Teaching Aide — CC3201 Databases"
   date:
     - !es "Primavera 2017"
     - !en "Spring 2017"
@@ -80,4 +80,4 @@
     - !es
       - "El curso cubre sobre Teoría de Bases de Datos, SQL, transacciones, ACID y consultas en grafos (SPARQL)."
     - !en
-      - "The course covers database theory, SQL, transactions, ACID, and graph queries (SPARQL)."
+      - "Covered database theory, SQL, transactions, ACID compliance, and graph queries using SPARQL."

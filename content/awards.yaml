@@ -1,14 +1,14 @@
 - _key: estudiante_destacado
   name:
     - !es "Estudiante Destacado"
-    - !en "Outstanding Student"
+    - !en "Dean's List"
   date: "2018 – 2020"
   location: "Santiago, Chile"
   summary: "FCFM, Universidad de Chile"
 - _key: beca_buch
   name:
     - !es "Beca Universidad de Chile (BUCH)"
-    - !en "Universidad de Chile Scholarship (BUCH)"
+    - !en "BUCH Full Undergraduate Program Scholarship"
   date: "2015"
   location: "Santiago, Chile"
   summary: "Universidad de Chile"

@@ -1,10 +1,10 @@
 - _key: centro_alumnos
   company:
     - !es "Centro de Alumnos del Departamento de Ciencias de la Computación"
-    - !en "Computer Science Department Student Council"
+    - !en "Student Union of Computer Science Department, Universidad de Chile"
   position:
     - !es "Co-Director de Extensión"
-    - !en "Co-Director of Outreach"
+    - !en "Outreach Co-Director"
   date: "2018"
   location: "Santiago, Chile"
   highlights:
@@ -12,5 +12,5 @@
       - "Coordinación de la presentación de Richard Stallman en la Universidad de Chile."
       - "Establecer comunicaciones con Centros de Estudiantes de Computación de otras universidades."
     - !en
-      - "Coordinated Richard Stallman's presentation at Universidad de Chile."
-      - "Established communications with computer science student councils at other universities."
+      - "Coordinated Richard Stallman's presentation at the University of Chile."
+      - "Handled communication with Computer Science student unions of other universities."
