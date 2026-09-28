@@ -1,0 +1,37 @@
+# Habilidades reformuladas a partir de lo demostrado en Experiencia
+# (sin niveles de dominio: no aporta indicar "avanzado/básico" por tecnología).
+- _key: backend
+  label:
+    - !es "Backend y Datos"
+    - !en "Backend & Data"
+  details:
+    - !es "Python, Django, Django REST Framework, Celery"
+    - !en "Python, Django, Django REST Framework, Celery"
+- _key: cloud_devops
+  label:
+    - !es "Cloud y DevOps"
+    - !en "Cloud & DevOps"
+  details:
+    - !es "AWS (EC2, S3, RDS, ECR, SES, CloudFront), Docker, GitHub Actions, Linux"
+    - !en "AWS (EC2, S3, RDS, ECR, SES, CloudFront), Docker, GitHub Actions, Linux"
+- _key: frontend
+  label:
+    - !es "Frontend"
+    - !en "Frontend"
+  details:
+    - !es "React, JavaScript"
+    - !en "React, JavaScript"
+- _key: additional
+  label:
+    - !es "Otras Herramientas"
+    - !en "Additional Tools"
+  details:
+    - !es "Java, C, Rust, Git, LaTeX, Emacs, OpenWRT"
+    - !en "Java, C, Rust, Git, LaTeX, Emacs, OpenWRT"
+- _key: spoken_languages
+  label:
+    - !es "Idiomas"
+    - !en "Spoken Languages"
+  details:
+    - !es "Español (Nativo), Inglés (Fluido - TOEFL ITP B2)"
+    - !en "Spanish (Native), English (Fluent - TOEFL ITP B2)"

@@ -1,0 +1,75 @@
+- _key: cranberrychic
+  company: "Cranberrychic"
+  position:
+    - !es "DevOps / Desarrollador"
+    - !en "DevOps / Developer"
+  start_date: "2022-03"
+  end_date: "2025-12"
+  location: "Santiago, Chile"
+  highlights:
+    - !es
+      - "Desarrollo backend de aplicación web usando Django y django-rest-framework en conjunto con Celery para tareas programadas. Dockerizado para el despliegue."
+      - "Diseño de la arquitectura para despliegue en la nube AWS usando EC2, S3, RDS, ECR, SES y CloudFront."
+      - "Despliegue automático del frontend en React usando GitHub Actions, AWS S3 y CloudFront."
+    - !en
+      - "Backend development of a web application using Django and Django REST Framework together with Celery for scheduled tasks. Dockerized for deployment."
+      - "Designed the cloud deployment architecture on AWS using EC2, S3, RDS, ECR, SES, and CloudFront."
+      - "Automated frontend (React) deployment using GitHub Actions, AWS S3, and CloudFront."
+- _key: bloqzilla
+  company: "Bloqzilla SpA"
+  position:
+    - !es "Desarrollador"
+    - !en "Developer"
+  start_date: "2019-08"
+  end_date: "2020-10"
+  location: "Santiago, Chile"
+  highlights:
+    - !es
+      - "Desarrollo de un módulo generador de reportes LaTeX en Python."
+      - "Desarrollo de un módulo convertidor de bases de datos en formato Microsoft Access a JSON en Java."
+      - "Desarrollo de una visualización web de reportes en JavaScript."
+      - "Arreglos de bugs."
+    - !en
+      - "Developed a LaTeX report generator module in Python."
+      - "Developed a Microsoft Access to JSON database converter module in Java."
+      - "Developed a web-based report visualization tool in JavaScript."
+      - "Bug fixing."
+- _key: tecnosmart_practicante_2019
+  company: "TecnoSmart SpA"
+  position:
+    - !es "Practicante"
+    - !en "Intern"
+  start_date: "2019-01"
+  end_date: "2019-02"
+  location: "Santiago, Chile"
+  highlights:
+    - !es
+      - "Desarrollo de un scrapper distribuido de datos del Poder Judicial para posterior análisis."
+    - !en
+      - "Developed a distributed scraper for Chilean Judiciary (Poder Judicial) data for subsequent analysis."
+- _key: tecnosmart_dev_2018
+  company: "TecnoSmart SpA"
+  position:
+    - !es "Desarrollador"
+    - !en "Developer"
+  start_date: "2018-05"
+  end_date: "2018-05"
+  location: "Santiago, Chile"
+  highlights:
+    - !es
+      - "Desarrollo de apoyo para un proyecto de Android."
+    - !en
+      - "Supporting development for an Android project."
+- _key: tecnosmart_practicante_2018
+  company: "TecnoSmart SpA"
+  position:
+    - !es "Practicante"
+    - !en "Intern"
+  start_date: "2018-01"
+  end_date: "2018-02"
+  location: "Santiago, Chile"
+  highlights:
+    - !es
+      - "Desarrollo en Android."
+    - !en
+      - "Android development."

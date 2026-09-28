@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# Settings compartidos por TODAS las salidas.
+# render_command va vacío: build.py pasa output_folder por CLI (-o) por cada perfil.
+settings:
+  current_date: today
+  bold_keywords: []
+  pdf_title: NAME - CV
+  render_command: {}

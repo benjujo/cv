@@ -1,0 +1,35 @@
+- _key: languages
+  label:
+    - !es "Lenguajes"
+    - !en "Programming Languages"
+  details:
+    - !es "Python (Avanzado), Java (Intermedio), C (Intermedio), Rust (Básico)"
+    - !en "Python (Advanced), Java (Intermediate), C (Intermediate), Rust (Basic)"
+- _key: frameworks
+  label:
+    - !es "Frameworks"
+    - !en "Frameworks"
+  details:
+    - !es "Django (Intermedio), Django REST (Intermedio), Flask (Básico)"
+    - !en "Django (Intermediate), Django REST (Intermediate), Flask (Basic)"
+- _key: technologies
+  label:
+    - !es "Tecnologías"
+    - !en "Technologies"
+  details:
+    - !es "Linux (Avanzado), Git (Intermedio), Docker (Intermedio), OpenWRT (Intermedio)"
+    - !en "Linux (Advanced), Git (Intermediate), Docker (Intermediate), OpenWRT (Intermediate)"
+- _key: other
+  label:
+    - !es "Otros"
+    - !en "Other"
+  details:
+    - !es "LaTeX (Intermedio), Emacs (Intermedio)"
+    - !en "LaTeX (Intermediate), Emacs (Intermediate)"
+- _key: spoken_languages
+  label:
+    - !es "Idiomas"
+    - !en "Spoken Languages"
+  details:
+    - !es "Español (Nativo), Inglés (Fluido - TOEFL ITP B2)"
+    - !en "Spanish (Native), English (Fluent - TOEFL ITP B2)"

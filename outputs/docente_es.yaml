@@ -1,0 +1,12 @@
+# CV enfocado en Docencia de Matemática — español.
+# Sin sección de Experiencia (se excluyen todos los trabajos de industria).
+# Docencia pasa a ser la experiencia principal del documento.
+language: es
+filename: Benjamin_Hurtado_CV_docente_es
+sections:
+  - summary_teaching
+  - docencia
+  - education
+  - skills_teaching
+  - awards
+  - extracurricular

@@ -1,0 +1,12 @@
+# Ejemplo de salida "corta" para postulaciones a la industria:
+# sin docencia/extracurricular, y sin la práctica de 2018 (poco relevante hoy).
+language: en
+filename: Benjamin_Hurtado_CV_short_en
+sections:
+  - summary
+  - experience
+  - education
+  - skills
+exclude:
+  experience:
+    - tecnosmart_practicante_2018

@@ -1,0 +1,59 @@
+# Título de cada sección por idioma (tag YAML `!<idioma>`, sin lista blanca
+# en build.py). El orden/selección real de secciones para una salida dada
+# se define en outputs/<perfil>.yaml.
+sections:
+  - key: summary
+    title:
+      - !es "Resumen"
+      - !en "Summary"
+    file: summary.yaml
+  - key: summary_devops
+    title:
+      - !es "Resumen"
+      - !en "Summary"
+    file: summary_devops.yaml
+  - key: summary_teaching
+    title:
+      - !es "Resumen"
+      - !en "Summary"
+    file: summary_teaching.yaml
+  - key: experience
+    title:
+      - !es "Experiencia"
+      - !en "Experience"
+    file: experience.yaml
+  - key: docencia
+    title:
+      - !es "Docencia"
+      - !en "Teaching"
+    file: docencia.yaml
+  - key: education
+    title:
+      - !es "Educación"
+      - !en "Education"
+    file: education.yaml
+  - key: skills
+    title:
+      - !es "Habilidades"
+      - !en "Skills"
+    file: skills.yaml
+  - key: skills_devops
+    title:
+      - !es "Habilidades"
+      - !en "Skills"
+    file: skills_devops.yaml
+  - key: skills_teaching
+    title:
+      - !es "Habilidades"
+      - !en "Skills"
+    file: skills_teaching.yaml
+  - key: awards
+    title:
+      - !es "Premios"
+      - !en "Awards"
+    file: awards.yaml
+  - key: extracurricular
+    title:
+      - !es "Actividades Extracurriculares"
+      - !en "Extracurricular Activities"
+    file: extracurricular.yaml

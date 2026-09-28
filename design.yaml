@@ -1,0 +1,5 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+# Diseño compartido por TODAS las salidas (ES/EN, versión corta/larga, etc.)
+# Se aplica vía `rendercv render ... -d design.yaml`
+design:
+  theme: classic

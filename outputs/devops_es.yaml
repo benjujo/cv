@@ -1,0 +1,17 @@
+# CV enfocado en Ingeniería DevOps — español.
+# Todas las experiencias de industria (incluidas las de TecnoSmart) se
+# mantienen para mostrar continuidad. Sin Docencia (desenfoca el perfil de
+# industria) y sin la Licenciatura en Pedagogía en Educación.
+language: es
+filename: Benjamin_Hurtado_CV_devops_es
+sections:
+  - summary_devops
+  - experience
+  - education
+  - skills_devops
+  - awards
+  - extracurricular
+include_only:
+  education:
+    - uchile_msc
+    - uchile_bsc

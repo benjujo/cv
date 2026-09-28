@@ -1,0 +1,14 @@
+# DevOps-focused CV — English.
+language: en
+filename: Benjamin_Hurtado_CV_devops_en
+sections:
+  - summary_devops
+  - experience
+  - education
+  - skills_devops
+  - awards
+  - extracurricular
+include_only:
+  education:
+    - uchile_msc
+    - uchile_bsc

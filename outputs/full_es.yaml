@@ -1,0 +1,11 @@
+# Salida completa en español.
+language: es
+filename: Benjamin_Hurtado_CV_es
+sections:
+  - summary
+  - experience
+  - docencia
+  - education
+  - skills
+  - awards
+  - extracurricular

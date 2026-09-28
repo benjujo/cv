@@ -1,0 +1,11 @@
+# Full English output.
+language: en
+filename: Benjamin_Hurtado_CV_en
+sections:
+  - summary
+  - experience
+  - docencia
+  - education
+  - skills
+  - awards
+  - extracurricular

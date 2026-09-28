@@ -1,0 +1,8 @@
+# Habilidades acotadas a lo relevante para dictar Pensamiento Computacional
+# y Programación (sin niveles de dominio).
+- _key: programacion
+  label: "Programación"
+  details: "Python, lógica de programación, algoritmos y estructuras de datos"
+- _key: spoken_languages
+  label: "Idiomas"
+  details: "Español (Nativo), Inglés (Fluido - TOEFL ITP B2)"
