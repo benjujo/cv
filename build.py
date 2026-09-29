@@ -152,11 +152,33 @@ def build(profile_path: pathlib.Path):
     return out_path, profile, lang
 
 
+def resolve_design_path(args, profile: dict) -> pathlib.Path:
+    """Devuelve el archivo de design a usar. Con --a4, parte del mismo
+    design.yaml (para no duplicar colores/tema en dos archivos) y le
+    inyecta page.size: a4 en un archivo generado aparte."""
+    design_path = ROOT / (args.design or profile.get("design", "design.yaml"))
+    if not args.a4:
+        return design_path
+
+    design_data = load(design_path)
+    page = design_data["design"].get("page", {})
+    page["size"] = "a4"
+    design_data["design"]["page"] = page
+
+    build_dir = ROOT / "build"
+    build_dir.mkdir(exist_ok=True)
+    out_path = build_dir / f"{design_path.stem}_a4.yaml"
+    with out_path.open("w", encoding="utf-8") as f:
+        yaml.dump(design_data, f)
+    return out_path
+
+
 def render(out_path: pathlib.Path, profile: dict, lang: str, args):
-    design = ROOT / (args.design or profile.get("design", "design.yaml"))
+    design = resolve_design_path(args, profile)
     locale = ROOT / (args.locale or profile.get("locale", f"locale_{lang}.yaml"))
     settings = ROOT / (args.settings or profile.get("settings", "settings.yaml"))
-    output_folder = ROOT / "rendercv_output" / profile["filename"]
+    suffix = "_a4" if args.a4 else ""
+    output_folder = ROOT / "rendercv_output" / f"{profile['filename']}{suffix}"
 
     cmd = [
         "rendercv",
@@ -182,6 +204,11 @@ def main():
     parser.add_argument("--design", help="Override del archivo de design")
     parser.add_argument("--locale", help="Override del archivo de locale")
     parser.add_argument("--settings", help="Override del archivo de settings")
+    parser.add_argument(
+        "--a4",
+        action="store_true",
+        help="Renderiza en A4 en vez de Letter (mismo tema/colores, solo cambia el tamaño de página); sale a una carpeta con sufijo _a4",
+    )
     args = parser.parse_args()
 
     profile_path = ROOT / "outputs" / args.profile

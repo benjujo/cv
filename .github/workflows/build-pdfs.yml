@@ -17,12 +17,13 @@ jobs:
 
       - uses: DeterminateSystems/nix-installer-action@main
 
-      - name: Renderizar todos los perfiles (outputs/*.yaml)
+      - name: Renderizar todos los perfiles (outputs/*.yaml), Letter y A4
         run: |
           set -e
           for profile in outputs/*.yaml; do
             echo "== $(basename "$profile") =="
             nix develop --command ./build.py "$(basename "$profile")"
+            nix develop --command ./build.py "$(basename "$profile")" --a4
           done
 
       - name: Publicar PDFs en la rama pdfs
