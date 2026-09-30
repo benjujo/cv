@@ -68,9 +68,12 @@
   position:
     - !es "Ayudante — CC3301 Programación de Software de Sistemas"
     - !en "Teaching Aide — CC3301 Systems Programming"
-  date:
-    - !es "Otoño 2018 – Primavera 2019"
-    - !en "Fall 2018 – Spring 2019"
+  start_date:
+    - !es "Otoño 2018"
+    - !en "Fall 2018"
+  end_date:
+    - !es "Primavera 2019"
+    - !en "Spring 2019"
   location: "Santiago, Chile"
   highlights:
     - !es
