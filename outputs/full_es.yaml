@@ -9,3 +9,6 @@ sections:
   - skills
   - awards
   - extracurricular
+exclude:
+  education:
+    - instituto_nacional

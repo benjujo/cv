@@ -25,3 +25,9 @@
   start_date: "2015"
   end_date: "2020"
   location: "Santiago, Chile"
+- _key: instituto_nacional
+  institution: "Instituto Nacional General José Miguel Carrera"
+  area: "Enseñanza Media Científico-Humanista"
+  start_date: "2009"
+  end_date: "2014"
+  location: "Santiago, Chile"
