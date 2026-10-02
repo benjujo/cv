@@ -2,7 +2,9 @@
   name:
     - !es "Estudiante Destacado"
     - !en "Dean's List"
-  date: "2018 – 2020"
+  date:
+    - !es "2018, 2019 y 2020"
+    - !en "2018, 2019 and 2020"
   location: "Santiago, Chile"
   summary: "FCFM, Universidad de Chile"
 - _key: beca_buch
